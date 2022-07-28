@@ -1,0 +1,118 @@
+<!-- Navegador con imagen -->
+<nav class="navbar fixed-top" style="background-color: #83F29D">
+    <!-- Contenedor del navedagor -->
+    <div class="container ">
+        <!-- Conetenedor de la imagen del menú -->
+        <div container>
+            <!-- Menu -->
+            <div class="dropdown">
+                <!-- Colocar la imagen dentro del botón -->
+                <button class="btn btn-success dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-expanded="false">
+                 <img src="assets/img/menu.png" height ="30" width="30" />
+                </button>
+                <!-- Opciones del menú -->
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                    <li><a routerLink="/home"><button class="dropdown-item" type="button">Inicio</button></a></li>
+                    <li><a routerLink="/products"><button class="dropdown-item" type="button">Productos</button></a></li>
+                    <li><a routerLink="/customers"><button class="dropdown-item" type="button">Clientes</button></a></li>
+                    <li><a routerLink="/employees"><button class="dropdown-item" type="button">Personal</button></a></li>
+                    <li><a routerLink="/odc"><button class="dropdown-item" type="button">Ordenes de Compra</button></a></li>
+                    <li><a routerLink="/status"><button class="dropdown-item" type="button">Status</button></a></li>
+                    <li><a routerLink="/logout"><button class="dropdown-item" type="button">Cerrar Sesión</button></a></li>
+                </ul>
+            </div>
+            <!-- FIN Menu -->
+        </div>
+        <!-- FIN Conetenedor de la imagen del menú -->
+        <!-- Logo centrado -->
+        <a class="navbar-brand mx-auto " href="# ">
+            <img src="assets/img/logo.png " width="150 " height="50 " alt="Ininbio" />
+        </a>
+    </div>
+    <!-- FIN Contenedor del navedagor -->
+</nav><br><br><br><br>
+<!-- FIN Navegador con imagen -->
+
+<h1 align="center">Personal <img src="assets/img/trabajadores.png " width="75" height="75 " alt="Personal" /></h1>
+<hr>
+
+<nav class="navbar navbar-light">
+    <div class="container-fluid">
+        <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Buscar Personal" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+        </form>
+    </div>
+</nav> <br>
+
+<table class="table table-bordered table-striped table-hover">
+    <thead>
+        <tr>
+            <!-- <th scope="col">Id Empleado</th> -->
+            <th scope="col">Nombre</th>
+            <th scope="col">Apellido Paterno</th>
+            <th scope="col">Apellido Materno</th>
+            <th scope="col">Editar Empleado</th>
+            <th scope="col">Eliminar Empleado</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- Usuario 1  -->
+        <tr>
+            <!-- <th scope="row">1</th> -->
+            <td>Juan</td>
+            <td>Mendoza </td>
+            <td>Lopez</td>
+            <td><button type="button" class="btn btn-outline-success btn-block" id="boton">
+                Modificar
+            </button></td>
+            <td><button type="button" class="btn btn-outline-success btn-block" id="boton">
+                Eliminar
+            </button></td>
+        </tr>
+        <!-- Usuario 2  -->
+        <tr>
+            <!-- <th scope="row">2</th> -->
+            <td>Jacob</td>
+            <td>Perez</td>
+            <td>-</td>
+            <td><button type="button" class="btn btn-outline-success btn-block" id="boton">
+                Modificar
+            </button></td>
+            <td><button type="button" class="btn btn-outline-success btn-block" id="boton">
+                Eliminar
+            </button></td>
+        </tr>
+        <!-- Usuario 3  -->
+        <tr>
+            <!-- <th scope="row">3</th> -->
+            <td>Pedro</td>
+            <td>Paredes</td>
+            <td>Aguilar</td>
+            <td><button type="button" class="btn btn-outline-success btn-block" id="boton">
+                Modificar
+            </button></td>
+            <td><button type="button" class="btn btn-outline-success btn-block" id="boton">
+                Eliminar
+            </button></td>
+        </tr>
+        <!-- Usuario 4  -->
+        <tr>
+            <!-- <th scope="row">1</th> -->
+            <td>Juan</td>
+            <td>Mendoza </td>
+            <td>Lopez</td>
+            <td><button type="button" class="btn btn-outline-success btn-block" id="boton">
+                Modificar
+            </button></td>
+            <td><button type="button" class="btn btn-outline-success btn-block" id="boton">
+                Eliminar
+            </button></td>
+        </tr>
+    </tbody>
+</table>
+<div class="container">
+    <button type="button" class="btn btn-outline-success btn-block" id="boton">
+            Añadir Personal
+        </button>
+</div>

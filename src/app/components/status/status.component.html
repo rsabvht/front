@@ -1,0 +1,112 @@
+<!-- Navegador con imagen -->
+<nav class="navbar fixed-top" style="background-color: #83F29D">
+    <!-- Contenedor del navedagor -->
+    <div class="container ">
+        <!-- Conetenedor de la imagen del menú -->
+        <div container>
+            <!-- Menu -->
+            <div class="dropdown">
+                <!-- Colocar la imagen dentro del botón -->
+                <button class="btn btn-success dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-expanded="false">
+                 <img src="assets/img/menu.png" height ="30" width="30" />
+                </button>
+                <!-- Opciones del menú -->
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                    <li><a routerLink="/home"><button class="dropdown-item" type="button">Inicio</button></a></li>
+                    <li><a routerLink="/products"><button class="dropdown-item" type="button">Productos</button></a></li>
+                    <li><a routerLink="/customers"><button class="dropdown-item" type="button">Clientes</button></a></li>
+                    <li><a routerLink="/employees"><button class="dropdown-item" type="button">Personal</button></a></li>
+                    <li><a routerLink="/odc"><button class="dropdown-item" type="button">Ordenes de Compra</button></a></li>
+                    <li><a routerLink="/status"><button class="dropdown-item" type="button">Status</button></a></li>
+                    <li><a routerLink="/logout"><button class="dropdown-item" type="button">Cerrar Sesión</button></a></li>
+                </ul>
+            </div>
+            <!-- FIN Menu -->
+        </div>
+        <!-- FIN Conetenedor de la imagen del menú -->
+        <!-- Logo centrado -->
+        <a class="navbar-brand mx-auto " href="# ">
+            <img src="assets/img/logo.png " width="150 " height="50 " alt="Ininbio" />
+        </a>
+    </div>
+    <!-- FIN Contenedor del navedagor -->
+</nav><br><br><br><br>
+<!-- FIN Navegador con imagen -->
+
+<h1 align="center">Status de Productos<img src="assets/img/status.png " width="75" height="75 " alt="Cliente" /></h1>
+<hr><br>
+
+<div class="dropdown">
+    <button class="btn btn-success dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-expanded="false">
+    Dropdown
+  </button>
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+        <li><button class="dropdown-item" type="button">Calidad</button></li>
+        <li><button class="dropdown-item" type="button">Producción</button></li>
+        <li><button class="dropdown-item" type="button">En ruta</button></li>
+        <li><button class="dropdown-item" type="button">Entregado</button></li>
+        <li><button class="dropdown-item" type="button">Cancelado</button></li>
+    </ul>
+</div>
+<br>
+
+
+<table class="table table-bordered table-striped table-hover">
+    <thead>
+        <tr>
+            <!-- <th scope="col">Id Empleado</th> -->
+            <th scope="col">Detalle de la Orden de Compra</th>
+            <th scope="col">Editar Orden</th>
+            <th scope="col">Eliminar Orden</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- Usuario 1  -->
+        <tr>
+            <td>Entregado</td>
+            <td><button type="button" class="btn btn-outline-success btn-block" id="boton">
+                Modificar
+            </button></td>
+            <td><button type="button" class="btn btn-outline-success btn-block" id="boton">
+                Eliminar
+            </button></td>
+        </tr>
+        <!-- Usuario 2  -->
+        <tr>
+            <td>Producción</td>
+            <td><button type="button" class="btn btn-outline-success btn-block" id="boton">
+                Modificar
+            </button></td>
+            <td><button type="button" class="btn btn-outline-success btn-block" id="boton">
+                Eliminar
+            </button></td>
+        </tr>
+        <!-- Usuario 3  -->
+        <tr>
+            <!-- <th scope="row">3</th> -->
+            <td>Calidad</td>
+            <td><button type="button" class="btn btn-outline-success btn-block" id="boton">
+                Modificar
+            </button></td>
+            <td><button type="button" class="btn btn-outline-success btn-block" id="boton">
+                Eliminar
+            </button></td>
+        </tr>
+        <!-- Usuario 4  -->
+        <tr>
+            <!-- <th scope="row">1</th> -->
+            <td>Ruta</td>
+            <td><button type="button" class="btn btn-outline-success btn-block" id="boton">
+                Modificar
+            </button></td>
+            <td><button type="button" class="btn btn-outline-success btn-block" id="boton">
+                Eliminar
+            </button></td>
+        </tr>
+    </tbody>
+</table>
+<!-- <div class="container">
+    <button type="button" class="btn btn-outline-success btn-block" id="boton">
+            Crear Orden de Compra
+        </button>
+</div> -->
